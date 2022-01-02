@@ -21,5 +21,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('about/', views.aboutUs),
     path('about/<id>', views.dynamicPages),
-    path('', views.homePage)
+    path('', views.homePage),
+    path('demo/', views.demoPage),
+    path('demo/<id>', views.dynamicDemoPage)
 ]
