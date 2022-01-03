@@ -23,5 +23,6 @@ urlpatterns = [
     path('about/<id>', views.dynamicPages),
     path('', views.homePage),
     path('demo/', views.demoPage),
-    path('demo/<id>', views.dynamicDemoPage)
+    path('demo/<id>', views.dynamicDemoPage),
+    path('data/', views.dataPage),
 ]
